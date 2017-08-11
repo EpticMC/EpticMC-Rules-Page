@@ -1,0 +1,122 @@
+/* * * * * * * * * * * * * * * * * * * * * * *
+ * Copyright (c) 2017 EpticMC & NullDev Ltd. *
+ * * * * * * * * * * * * * * * * * * * * * * */
+
+.tooltip {
+	position:                 relative;
+	display:                  inline-block;
+	border-bottom:            1px dotted black;
+	text-decoration:          none;
+	cursor:                   pointer;
+}
+
+.tooltip .tooltiptext {
+	visibility:               hidden;
+	width:                    150px;
+	background-color:         black;
+	opacity:                  0.85;
+	color:                    #fff;
+	text-align:               center;
+	border-radius:            6px;
+	padding:                  5px 0;
+	position:                 absolute;
+	z-index:                  1;
+	bottom:                   150%;
+	left:                     50%;
+	margin-left:              -60px;
+}
+
+.tooltip .tooltiptext::after {
+	content:                  "";
+	position:                 absolute;
+	top:                      100%;
+	left:                     50%;
+	margin-left:              -5px;
+	border-width:             5px;
+	border-style:             solid;
+	border-color:             black transparent transparent transparent;
+}
+
+.wrap {
+	margin:                   auto;
+	background-color:         #2A2A2A;
+	width:                    70%;
+	border:                   1px #f04646 solid;
+	border-radius:            10px;
+	padding:                  40px;
+	padding-bottom:           0px;'
+	padding-top:              10px;
+}
+
+.logo {
+	margin:                   auto;
+	max-width:                65%;
+}
+
+.hr {
+	width:                    50%;
+	height:                   2px;
+	background-color:         #FFFFFF;
+}
+
+body {
+	font-family:              'Trebuchet MS';
+	color:                    #FFFFFF;
+	overflow-y:               auto;
+}
+
+.wrap a {
+	-moz-transition:          all .2s ease-in;
+	-o-transition:            all .2s ease-in;
+	-webkit-transition:       all .2s ease-in;
+	transition:               all .2s ease-in;
+	color:                    #f04646;
+	text-decoration:          none;
+}
+
+.wrap a:visited             { text-decoration: none;    }
+.tooltip:hover .tooltiptext { visibility:      visible; }
+.wrap a:hover               { color:           #676565; }
+.footer a:hover             { color:           #FFFFFF; }
+.sectiondiv strong          { color:           white;   }
+
+.footer a {
+	-moz-transition:          all .2s ease-in;
+	-o-transition:            all .2s ease-in;
+	-webkit-transition:       all .2s ease-in;
+	transition:               all .2s ease-in;
+	color:                    #000000;
+	text-decoration:          none;
+}
+
+.footer {
+	width:                    100%;
+	background-color:         #f04646;
+	border-top-left-radius:   10px;
+	border-top-right-radius:  10px;
+	padding:                  5px;
+}
+
+.sectiondiv {
+	background-color:         #262626;
+	border-left-style         solid;
+	border-left:              thick solid #202020;
+	border-left-width:        40px;
+	padding:                  10px;
+	border-radius:            5px;
+	color:                    #BBBBBB;
+}
+
+.moreinfo {
+	background-color:         #202020;
+	margin-left:              20px;
+	margin-right:             20px;
+	margin-top:               5px;
+	padding-top:              5px;
+	padding-bottom:           5px;
+	padding-left:             10px;
+	padding-right:            10px;
+	border-radius:            5px;
+	font-size:                95%;
+	color:                    #C4C4C4;
+}
