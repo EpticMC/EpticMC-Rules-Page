@@ -1,6 +1,12 @@
 # EpticMC-Rules-Page
 Code of the forum rules page
 
+Can be found at: <br>
+https://epticmc.com/rules
+
+Forum Post and misc: <br>
+https://epticmc.com/thread/10-important-links/
+
 **EpticMC Colors**:
 
 | Our Color Name | Color Hex Code |
