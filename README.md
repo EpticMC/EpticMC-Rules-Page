@@ -7,6 +7,9 @@ https://epticmc.com/rules
 Forum Post and misc: <br>
 https://epticmc.com/thread/10-important-links/
 
+GitHub hosted version: <br>
+https://epticmc.github.io/EpticMC-Rules-Page/index.html
+
 **EpticMC Colors**:
 
 | Our Color Name | Color Hex Code |
