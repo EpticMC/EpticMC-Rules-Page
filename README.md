@@ -8,7 +8,7 @@ Forum Post and misc: <br>
 https://epticmc.com/thread/10-important-links/
 
 GitHub hosted version: <br>
-https://epticmc.github.io/EpticMC-Rules-Page/index.html
+https://epticmc.github.io/EpticMC-Rules-Page/
 
 **EpticMC Colors**:
 
