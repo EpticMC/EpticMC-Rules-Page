@@ -1,3 +1,4 @@
+
 /* * * * * * * * * * * * * * * * * * * * * * *
  * Copyright (c) 2017 EpticMC & NullDev Ltd. *
  * * * * * * * * * * * * * * * * * * * * * * */
@@ -65,6 +66,11 @@ body {
 	overflow-y:               auto;
 }
 
+.def-span { line-height:      30px; }
+
+.a-expander { text-align:     center; }
+.a-expander:hover { cursor:   pointer; }
+
 .wrap a {
 	-moz-transition:          all .2s ease-in;
 	-o-transition:            all .2s ease-in;
@@ -79,7 +85,6 @@ body {
 .wrap a:hover               { color:           #676565; }
 .footer a:hover             { color:           #FFFFFF; }
 .sectiondiv strong          { color:           white;   }
-
 .footer a {
 	-moz-transition:          all .2s ease-in;
 	-o-transition:            all .2s ease-in;
@@ -119,4 +124,9 @@ body {
 	border-radius:            5px;
 	font-size:                95%;
 	color:                    #C4C4C4;
+}
+
+.update {
+	font-size:                70%; 
+	color:                    #BBB;
 }
